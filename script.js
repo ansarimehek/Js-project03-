@@ -1,48 +1,48 @@
 const quizData = [
     {
-        question: 'What is the capital of France?',
-        options: ['Paris', 'London', 'Berlin', 'Madrid'],
-        answer: 'Paris',
+        question: 'Which of the following is uesd to define the style of a web page?',
+        options: ['HTML', 'CSS', 'JS', 'SQL'],
+        answer: 'CSS',
     },
     {
-        question: 'What is the largest planet in our solar system?',
-        options: ['Mars', 'Saturn', 'Jupiter', 'Neptune'],
-        answer: 'Jupiter',
+        question: 'Which HTML tag is used to create a hyperlink?',
+        options: ['<link>', '<href>', '<a>', '<button>'],
+        answer: '<a>',
     },
     {
-        question: 'Which country won the FIFA World Cup in 2018?',
-        options: ['Brazil', 'Germany', 'France', 'Argentina'],
-        answer: 'France',
+        question: 'Which of the following is JS framework?',
+        options: ['Angular JS', 'Django', 'Flask', 'Laravel'],
+        answer: 'Angular JS',
     },
     {
-        question: 'What is the tallest mountain in the world?',
-        options: ['Mount Everest', 'K2', 'Kangchenjunga', 'Makalu'],
-        answer: 'Mount Everest',
+        question: 'What does the <canvas> element in HTML5 allow you to do?',
+        options: ['Embed videos', 'Create tables', 'Draw graphicson a web page', 'Display images'],
+        answer: 'Draw graphicson a web page',
     },
     {
-        question: 'Which is the largest ocean on Earth?',
+        question: 'What does the box-shadow property in css do?',
         options: [
-            'Pacific Ocean',
-            'Indian Ocean',
-            'Atlantic Ocean',
-            'Arctic Ocean',
+            'Creates a shadow around an elements content',
+            'Creates a shadow around an elements border',
+            'Creates a shadow behind an element',
+
         ],
-        answer: 'Pacific Ocean',
+        answer: 'Creates a shadow around an elements border',
     },
     {
-        question: 'What is the chemical symbol for gold?',
-        options: ['Au', 'Ag', 'Cu', 'Fe'],
-        answer: 'Au',
+        question: 'Which event occurs when the user clicks on a HTML element?',
+        options: ['Onchange', 'Onclick', 'Onmouseclick', 'Onmouseover'],
+        answer: 'Onclick',
     },
     {
-        question: 'Who painted the Mona Lisa?',
+        question: 'What will the foll code return: Boolean(10>9)?',
         options: [
-            'Pablo Picasso',
-            'Vincent van Gogh',
-            'Leonardo da Vinci',
-            'Michelangelo',
+            'TRUE',
+            'FALSE',
+            'NaN',
+            'Undefine',
         ],
-        answer: 'Leonardo da Vinci',
+        answer: 'TRUE',
     },
     {
         question: 'Which planet is known as the Red Planet?',
@@ -50,20 +50,35 @@ const quizData = [
         answer: 'Mars',
     },
     {
-        question: 'What is the largest species of shark?',
+        question: 'Which of the following is a ternary operator in JS?',
         options: [
-            'Great White Shark',
-            'Whale Shark',
-            'Tiger Shark',
-            'Hammerhead Shark',
+            '?',
+            '??',
+            '?.',
+
         ],
-        answer: 'Whale Shark',
+        answer: '?',
     },
     {
-        question: 'Which animal is known as the King of the Jungle?',
-        options: ['Lion', 'Tiger', 'Elephant', 'Giraffe'],
-        answer: 'Lion',
+        question: 'What will be the result of 2+"2" in JS?',
+        options: ['4', '22', 'NaN', 'Undefine'],
+        answer: '22',
     },
+    {
+        question: 'What is the purpose of the <meta charset="UTF-8"> tag in HTML?',
+        options: ['To define the character encoding for the documents',
+            'To include metadata such as author and description',
+            'To set the viewport for mobile devices',
+            'To link external CSS Or CSS JS'],
+        answer: 'To define the character encoding for the documents',
+    },
+    {
+        question: 'Which of the following HTML element is not supported in HTML5?',
+        options: ['<video>', '<canva>', '<article>', '<marquee>',],
+        answer: '<marquee>',
+    },
+
+
 ];
 
 const quizContainer = document.getElementById('quiz');
