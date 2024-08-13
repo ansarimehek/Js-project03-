@@ -45,9 +45,12 @@ const quizData = [
         answer: 'TRUE',
     },
     {
-        question: 'Which planet is known as the Red Planet?',
-        options: ['Mars', 'Venus', 'Mercury', 'Uranus'],
-        answer: 'Mars',
+        question: 'How to create an email link in HTML?',
+        options: ['<a href="mailto.abc@gmail.com">send email </a>',
+            '<a email="abc@gmail.com">send email </a>',
+            '<a link="abc@gmail.com">send email </a>',
+            '<a href="email:abc@gmail.com">send email </a>'],
+        answer: '<a href="mailto.abc@gmail.com">send email </a>',
     },
     {
         question: 'Which of the following is a ternary operator in JS?',
