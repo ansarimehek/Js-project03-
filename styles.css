@@ -61,31 +61,36 @@ h1 {
   display: none;
 }
 
-
+.container-fluid{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
 
 @media only screen and (max-width:  600px) {
-  .abc {
+  /* .abc {
     padding: 10px; 
     margin-top: 390px;
     width: 80%;
     height: 1000px;
-  }
-  h1{
+  } */
+  /* h1{
     font-size: 72px;
-  }
+  } */
 
-  #quiz{
+  /* #quiz{
     font-size: 34px;
-  }
+  } */
 
-  .button{
+  /* .button{
     font-size: 34px;
-  }
+  } */
 
-  .ss{
+  /* .ss{
     margin: 390px 0px;
-  }
+  } */
   
 }
 
