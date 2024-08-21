@@ -1,14 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 
+body{
+  background-image: linear-gradient(to right, cornsilk, cornflowerblue);
+ 
+}
+
 .quiz{
   margin: 0;
   padding: 0;
+
 }
 
 .card-quiz{
   width: 40rem ;
 }
+
+@media screen {
+  
+}
+
+
 @media only screen and (min-width: 600px) {
   .card-quiz{
     height: 40rem !important;
@@ -36,4 +48,33 @@
 
     margin: 40px 0px;
   }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #428bca;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+    width: 225px;
+  }
+  
+  .button:hover {
+    background-color: #3071a9;
+  }
+  
+  .result {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .hide{
+    display: none;
+  }
+  
+ 
 }

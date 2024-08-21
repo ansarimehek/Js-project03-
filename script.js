@@ -14,11 +14,7 @@ const quizData = [
         options: ['Angular JS', 'Django', 'Flask', 'Laravel'],
         answer: 'Angular JS',
     },
-    {
-        question: 'What does the <canvas> element in HTML5 allow you to do?',
-        options: ['Embed videos', 'Create tables', 'Draw graphicson a web page', 'Display images'],
-        answer: 'Draw graphicson a web page',
-    },
+
     {
         question: 'What does the box-shadow property in css do?',
         options: [
@@ -81,7 +77,6 @@ const quizData = [
         answer: '<marquee>',
     },
 
-
 ];
 
 const quizContainer = document.getElementById('quiz');
@@ -115,7 +110,7 @@ function displayQuestion() {
     shuffleArray(shuffledOptions);
 
     for (let i = 0; i < shuffledOptions.length; i++) {
-        const option = document.createElement('label');
+        const option = document.createElement('p');
         option.className = 'option';
 
         const radio = document.createElement('input');
